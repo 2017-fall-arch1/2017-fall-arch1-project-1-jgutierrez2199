@@ -1,0 +1,15 @@
+#AVL Balanced Search Tree
+
+---
+
+This lab focuses on implementing a balanced binary search tree in C
+That stores the names of employees for the ACME Company. In order to
+accomplish this we will use the AVL tree data type. The reason for
+keeping this tree balanced is to allow us to make insertions,
+deletions, and searches in O(log n) time 
+
+##AVL Trees
+
+---
+
+AVL trees maintain balance in order to 
