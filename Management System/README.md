@@ -1,16 +1,18 @@
-#AVL Balanced Search Tree
+AVL Balanced Search Tree
+===
 
 ---
-##Description
 
+Description
+---
 This lab focuses on implementing a balanced binary search tree in C
 That stores the names of employees for the ACME Company. In order to
 accomplish this we will use the AVL tree data type. The reason for
 keeping this tree balanced is to allow us to make insertions,
 deletions, and searches in O(log n) time.
 
-##AVL Trees
-
+AVL Trees
+---
 AVL trees maintain balance in order to maintain their time
 efficiency for insertions, deletions, and searches. For a small pool
 of data the change is not very apparent, but for larger data sets this
@@ -20,8 +22,8 @@ offset for each and every node. As long as the magnitude of the offset
 for any node does not become more than 1, the tree should remain
 balanced.
 
-##Contents
-
+Contents
+---
 This directory contains:
 * code that implements a binary search tree of strings
 * code that balances said tree in order to optimize searching,
@@ -37,8 +39,8 @@ This demo contains the following files:
  llist.c: implementation of linked list
  listDemo.c: a demonstration program that uses the linked list
 
-##How to Use:
-
+How to Use:
+---
 To compile:
 ~~~
 $ make
