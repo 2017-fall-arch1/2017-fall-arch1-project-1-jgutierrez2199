@@ -26,7 +26,7 @@ int main()
   bstPrint(bstp, "Tree contents, prior to reading input:");
 
   while (gets_n(buf, 100)){	/* build tree rebalancing along the way */
-    bstPut(lp, buf);
+    bstPut(bstp.root, buf);
   }
   
   bstPrint(bstp, "Tree contents, after building tree:");
