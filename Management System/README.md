@@ -1,8 +1,6 @@
 AVL Balanced Search Tree
 ===
 
----
-
 Description
 ---
 This lab focuses on implementing a balanced binary search tree in C
@@ -56,8 +54,8 @@ To delete binaries:
 $ make clean
 ~~~
 
-##References
-
+References
+---
 ~~~
 www.geeksforgeeks.org/avl-tree-set-1-insertion/
 ~~~
@@ -66,4 +64,7 @@ about back in CS 2 but had not used since. This site was a great
 resource and provided great explanations of the rotations and steps
 that are needed to re-balance the tree. I was also able to mirror some
 of my code after theirs, though I did not actually take it or copy
-it. 
+it.
+
+I also hevily referenced the code provided by the professor in the Demo
+folder.
