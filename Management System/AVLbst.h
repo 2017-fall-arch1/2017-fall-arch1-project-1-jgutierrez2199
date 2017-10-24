@@ -19,10 +19,31 @@ typedef struct bst {
 bst *bstAlloc();
 
 /* free memory associated with a tree, discarding all items it contains */
-void bstFree(bst *bstp);
+void bstFree(struct bst *bstp);
 
 /* add a string to the tree then rebalance it */
-void bstPut(bst *bstp, char *s);
+void bstPut(struct bstNode *node, char *s);
+
+/*Wrapper for recursive node printing*/
+void bstPrint(struct bst *bstp, char *msg);
+
+/*recursive in order printing function*/
+void nodePrint(struct bstNode *bp);
+
+/*Gives the height recursively*/
+int height(struct bstNode *bstp);
+
+/*performs a right rotation to preserve balance*/
+struct bstNode *rightRotate(struct bstNode *y);
+
+/*performs a left rotation to preserve balance*/
+struct bstNode *leftRotate(struct bstNode *x);
+
+/*gives the balance number to determine which rotations to perform to balance it*/
+int getBalance(struct bstNode *N);
+
+/*jsut gives the max of two ints*/
+int max(int a, int b);
 
 /* Delete all elements off of the tree */
 void bstMakeEmpty(bst *bstp);
